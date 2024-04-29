@@ -13,6 +13,25 @@ public class Carculator {
         System.out.println("사칙 연산기호을 입력하세요: ");
         char ch =sc.next().charAt(0);
 
+        double result = 0;
+
+        switch(ch){
+            case '+': result = num1 + num2;
+            break;
+            case '-': result = num1 - num2;
+            break;
+            case '*': result = num1 * num2;
+            break;
+            case '/':
+                if(num2 != 0){
+                    result = num1 / num2;
+                }else{
+                    System.out.println("나눗셈 연산에서 분모에는 0을 입력 할 수 없습니다");
+                }
+            break;
+
+        }
+
 
 
 
