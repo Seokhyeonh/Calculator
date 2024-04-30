@@ -11,6 +11,7 @@ public class Carculator {
 
         String remove = "remove";
         String out = "exit";
+        String inquiry = "inquiry";
 //        int[] arr = new int[10];
 //        int count = 0;
 
@@ -59,22 +60,28 @@ public class Carculator {
 //
 //            System.out.println(arr[count] + " ");}
             q.offer(result);
-            for(Integer resarr:q){
+            for(Integer resarr:q) {
                 System.out.println(resarr + " ");
             }
 
-            System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
-            String input = sc.next();
-            if(input.equals(remove)) {
-                q.remove(q.peek());
-                System.out.println("삭제합니다");
-               
-            }
+                System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
+                String input = sc.next();
+                if (input.equals(remove)) {
+                    q.remove(q.peek());
+                    System.out.println("삭제합니다");
+
+                }
+            System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
+                String input2 = sc.next();
+                if(input2.equals(inquiry)) {
+                    System.out.println(q+" ");
+                }
+
+
 
             System.out.println("exit 입력 시 종료합니다");
-            String input2 = sc.next();
-
-            if(input2.equals(out)){
+            String input3 = sc.next();
+            if(input3.equals(out)){
                 System.out.println("종료합니다");
                 break;
             }else {continue;}
