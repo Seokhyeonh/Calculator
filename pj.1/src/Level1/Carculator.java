@@ -52,6 +52,8 @@ public class Carculator {
                     }
                     break;
                 case '%':
+                    result = num1 % num2;
+                    break;
 
             }
 //            arr[count] = result;
@@ -77,8 +79,6 @@ public class Carculator {
                     System.out.println(q+" ");
                 }
 
-
-
             System.out.println("exit 입력 시 종료합니다");
             String input3 = sc.next();
             if(input3.equals(out)){
@@ -87,14 +87,5 @@ public class Carculator {
             }else {continue;}
 
         }
-
-
-
-
-
-
     }
-
-
-
 }
