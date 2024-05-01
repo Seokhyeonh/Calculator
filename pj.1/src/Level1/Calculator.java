@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Carculator {
+public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int result = 0;
@@ -13,9 +13,6 @@ public class Carculator {
         String out = "exit";
         String inquiry = "inquiry";
 //        int[] arr = new int[10];
-//        int count = 0;
-
-
         Queue<Integer> q= new LinkedList<>();
 
 
@@ -62,9 +59,11 @@ public class Carculator {
 //
 //            System.out.println(arr[count] + " ");}
             q.offer(result);
-            for(Integer resarr:q) {
-                System.out.println(resarr + " ");
-            }
+
+
+                System.out.print("결과: " + result );
+                System.out.println();
+
 
                 System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
                 String input = sc.next();
