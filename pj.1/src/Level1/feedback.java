@@ -1,7 +1,6 @@
 package Level1;
 
-import java.util.LinkedList;
-import java.util.Queue;
+
 import java.util.Scanner;
 
 public class feedback {
@@ -41,7 +40,7 @@ public class feedback {
             System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
             String input = sc.next();
             if (input.equals(remove)) {
-               level2. q.remove(q);
+               level2. getQ().remove(q);
                 System.out.println("삭제합니다");
 
             }

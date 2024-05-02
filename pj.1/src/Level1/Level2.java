@@ -4,9 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Level2 {
-        Queue<Integer> q = new LinkedList<>();
+     private   Queue<Integer> q = new LinkedList<>();
     public Queue<Integer> getQ() {
         return q;
+    }
+
+    public void setQ(Queue<Integer> q) {
+        this.q = q;
     }
 
     public int lv2(int num1, int num2, char ch) {
