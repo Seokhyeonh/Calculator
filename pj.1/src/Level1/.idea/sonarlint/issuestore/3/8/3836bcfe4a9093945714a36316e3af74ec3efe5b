@@ -1,0 +1,20 @@
+
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8è°’¿ó1J$fb702ec5-4f80-4263-99b0-e727e6b47540
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÍÓÑ³ýÿÿÿÿ8ê°’¿ó1J$9ef8a54b-b15f-4e8c-9d19-ebff6b44c5da
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò…ÓÛ8ì°’¿ó1J$a84aebe2-d379-451f-aa28-b90232c473e7
+^
+java:S3626N"Remove this redundant jump.(ÉŠ©ƒ8à±’¿ó1J$d2fcdb2e-4de2-46dc-944a-a8577bf441e5
+}	java:S125"<This block of commented-out lines of code should be removed.(Õ‚÷(8ä±’¿ó1J$f774c4be-6323-4d69-8f59-57a79b201d51
+r	java:S106"+Replace this use of System.out by a logger.(µƒïÃøÿÿÿÿ8å±’¿ó1J$ebb1ce60-5d32-46d8-9732-0dd57f275222
+m	java:S106"+Replace this use of System.out by a logger.(‰ô³à8æ±’¿ó1J$7654ea0e-f4fb-4017-a0a0-713f702cb1a7
+r	java:S106"+Replace this use of System.out by a logger.(”½€ûÿÿÿÿÿ8æ±’¿ó1J$4c383c52-2191-4bb4-aff5-70feece860bb
+i	java:S131 ""Add a default case to this switch.(žžŒ¹ÿÿÿÿÿ8ç±’¿ó1J$7d1a1521-2b6d-4ac9-bba0-bec1c86bb4a2
+r	java:S106."+Replace this use of System.out by a logger.(ÿÔãþþÿÿÿÿ8è±’¿ó1J$0336711d-9815-49fe-9f03-06179983826b
+m	java:S1067"+Replace this use of System.out by a logger.(€†ëŠ8è±’¿ó1J$be72ccd6-a768-4129-91f6-ae4e5295feb1
+r	java:S1068"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8è±’¿ó1J$77dd829e-8b7d-4086-b7ae-bb66851dd331
+m	java:S106;"+Replace this use of System.out by a logger.(¨Íýû8è±’¿ó1J$fe292cee-de45-416a-8e41-9ccd89277c26
+m	java:S106?"+Replace this use of System.out by a logger.(»ýíî8ê±’¿ó1J$2b250e3d-b33d-4f28-9ee4-2dd3823a2aea
+r	java:S106B"+Replace this use of System.out by a logger.(·é´Êÿÿÿÿÿ8ê±’¿ó1J$e7c173b9-fe82-4c55-8429-c2badad4ed7c
+m	java:S106E"+Replace this use of System.out by a logger.(Ïµ×’8ê±’¿ó1J$3131f9cc-9cdc-4aae-a2f4-4a9ab300d18c
+r	java:S106H"+Replace this use of System.out by a logger.(åå©Óúÿÿÿÿ8ê±’¿ó1J$15bd9027-7e12-416e-9019-552a0a7dce5f
+m	java:S106K"+Replace this use of System.out by a logger.(ÉžÉª8ë±’¿ó1J$78900373-61d5-4599-a8a0-1a6a11a2b91e

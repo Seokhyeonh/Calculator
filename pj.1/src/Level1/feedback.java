@@ -1,11 +1,13 @@
 package Level1;
 
-
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class feedback {
 
     public static void main(String[] args) {
+
         Level2 level2 = new Level2();
 
         Scanner sc = new Scanner(System.in);
@@ -30,24 +32,23 @@ public class feedback {
             System.out.println("두 번째 숫자를 입력하세요: ");
             int num2 = sc.nextInt();
 
-            int q = level2.lv2(num1, num2 ,ch);
-
-
-            System.out.print("결과: " + q);
+            int b = level2.lv2(num1, num2 ,ch);
+            int result = b;
+            System.out.print("결과: " + b);
             System.out.println();
-
+            level2.getQ().offer(result);
 
             System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
             String input = sc.next();
             if (input.equals(remove)) {
-               level2. getQ().remove(q);
+               level2. getQ().remove(level2.getQ().peek());
                 System.out.println("삭제합니다");
 
             }
             System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
             String input2 = sc.next();
             if (input2.equals(inquiry)) {
-                System.out.println(q + " ");
+                System.out.println(result + " ");
             }
 
             System.out.println("exit 입력 시 종료합니다");
