@@ -12,7 +12,7 @@ public class Calculator {
         String remove = "remove";
         String out = "exit";
         String inquiry = "inquiry";
-//        int[] arr = new int[10];
+
         Queue<Integer> q= new LinkedList<>();
 
 

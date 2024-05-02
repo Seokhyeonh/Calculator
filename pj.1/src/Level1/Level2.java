@@ -1,7 +1,17 @@
 package Level1;
-    public class level2 {
-        public int lv2(int num1, int num2, char ch) {
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Level2 {
+        Queue<Integer> q = new LinkedList<>();
+    public Queue<Integer> getQ() {
+        return q;
+    }
+
+    public int lv2(int num1, int num2, char ch) {
             int result = 0;
+
 
             switch (ch) {
                 case '+':
@@ -26,6 +36,7 @@ package Level1;
                 default:
                     throw new UnsupportedOperationException("올바른 연산자를 입력해주세요");
             }
+            q.offer(result);
             return result;
         }
 

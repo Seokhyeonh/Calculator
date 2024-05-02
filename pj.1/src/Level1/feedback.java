@@ -5,14 +5,17 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class feedback {
+
     public static void main(String[] args) {
+        Level2 level2 = new Level2();
+
         Scanner sc = new Scanner(System.in);
-        int result = 0;
+
 
         String remove = "remove";
         String exit = "exit";
         String inquiry = "inquiry";
-        Queue<Integer> q = new LinkedList<>();
+
 
 
         /* 연산의 결과를 저장할 수 있도록 적합한 타입의 배열을 생성합니다. */
@@ -28,44 +31,17 @@ public class feedback {
             System.out.println("두 번째 숫자를 입력하세요: ");
             int num2 = sc.nextInt();
 
+            int q = level2.lv2(num1, num2 ,ch);
 
 
-
-            switch (ch) {
-                case '+':
-                    result = num1 + num2;
-                    break;
-                case '-':
-                    result = num1 - num2;
-                    break;
-                case '*':
-                    result = num1 * num2;
-                    break;
-                case '/':
-                    if (num2 != 0) {
-                        result = num1 / num2;
-                    } else {
-                        System.out.println("나눗셈 연산에서 분모에는 0을 입력 할 수 없습니다");
-                        return ;
-                    }
-                    break;
-                case '%':
-                    result = num1 % num2;
-                    break;
-                default:
-                    System.out.println("올바른 연산자를 입력해주세요");
-                    return ;
-
-            }
-            q.offer(result);
-            System.out.print("결과: " + result);
+            System.out.print("결과: " + q);
             System.out.println();
 
 
             System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
             String input = sc.next();
             if (input.equals(remove)) {
-                q.remove(q.peek());
+               level2. q.remove(q);
                 System.out.println("삭제합니다");
 
             }
