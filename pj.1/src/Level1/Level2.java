@@ -7,12 +7,12 @@ public class Level2 {
 
     int result = 0;
    private  Queue<Integer> q = new LinkedList<>();
-//    public Level2(){
-//
-//    }
-//    public Level2(Queue<Integer> q){
-//        this.q = q;
-//    }
+    public Level2(){
+
+    }
+    public Level2(Queue<Integer> q){
+        this.q = q;
+    }
 
     public Queue<Integer> getQ() {
 
