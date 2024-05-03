@@ -32,23 +32,22 @@ public class feedback {
             System.out.println("두 번째 숫자를 입력하세요: ");
             int num2 = sc.nextInt();
 
-            int b = level2.lv2(num1, num2 ,ch);
-            int result = b;
-            System.out.print("결과: " + b);
+            int results = level2.lv2(num1, num2 ,ch);
+            int result = results;
+            System.out.print("결과: " + results);
             System.out.println();
             level2.getQ().offer(result);
 
             System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) :");
             String input = sc.next();
             if (input.equals(remove)) {
-               level2. getQ().remove(level2.getQ().peek());
-                System.out.println("삭제합니다");
+              level2.removeResult(results);
 
             }
             System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
             String input2 = sc.next();
             if (input2.equals(inquiry)) {
-                System.out.println(result + " ");
+               level2.inquiryResult(result);
             }
 
             System.out.println("exit 입력 시 종료합니다");
