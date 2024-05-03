@@ -1,0 +1,21 @@
+
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò…ÓÛ
+1
+java:S3626V"Remove this redundant jump.(æ«·í
+Q	java:S125"<This block of commented-out lines of code should be removed.(‘™ï
+P	java:S125"<This block of commented-out lines of code should be removed.(Õ‚÷(
+E	java:S106"+Replace this use of System.out by a logger.(µƒïÃøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(‰ô³à
+E	java:S106"+Replace this use of System.out by a logger.(”½€ûÿÿÿÿÿ
+<	java:S131"""Add a default case to this switch.(žžŒ¹ÿÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(ÿÔãþþÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(Çª„ùÿÿÿÿ
+@	java:S106@"+Replace this use of System.out by a logger.(€†ëŠ
+E	java:S106A"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ
+@	java:S106D"+Replace this use of System.out by a logger.(¨Íýû
+@	java:S106H"+Replace this use of System.out by a logger.(»ýíî
+E	java:S106K"+Replace this use of System.out by a logger.(·é´Êÿÿÿÿÿ
+@	java:S106N"+Replace this use of System.out by a logger.(Ïµ×’
+E	java:S106Q"+Replace this use of System.out by a logger.(åå©Óúÿÿÿÿ
+@	java:S106T"+Replace this use of System.out by a logger.(ÉžÉª

@@ -12,7 +12,7 @@ public class Calculator {
         String remove = "remove";
         String out = "exit";
         String inquiry = "inquiry";
-//        int[] arr = new int[10];
+
         Queue<Integer> q= new LinkedList<>();
 
 
@@ -58,9 +58,9 @@ public class Calculator {
 //            for(count = 0 ; count < 9 ; count++){
 //
 //            System.out.println(arr[count] + " ");}
-            q.offer(result);
 
 
+                q.offer(result);
                 System.out.print("결과: " + result );
                 System.out.println();
 
