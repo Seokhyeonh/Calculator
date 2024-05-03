@@ -8,7 +8,7 @@ public class feedback {
 
     public static void main(String[] args) {
 
-        Level2 level2 = new Level2();
+        Level2 level2 = new Level2(new LinkedList<>(), new LinkedList<>());
 
         Scanner sc = new Scanner(System.in);
 
@@ -25,6 +25,11 @@ public class feedback {
 //        int count = 0;
 
         do {
+            System.out.println("어떤 계산을 하시겠습니까? (1:사칙연산, 2:원의 넓이");
+            int choice = sc.nextInt();
+            if (choice == 1) {}
+
+
             System.out.println("첫 번째 숫자를 입력하세요: ");
             int num1 = sc.nextInt();
             System.out.println("사칙 연산기호을 입력하세요: ");
@@ -48,6 +53,15 @@ public class feedback {
             String input2 = sc.next();
             if (input2.equals(inquiry)) {
                level2.inquiryResult(result);
+            }else{
+                System.out.println("원의 반지름을 입력하세요");
+                int radius = sc.nextInt();
+
+                double area = level2.calculateCircleArea(radius);
+                level2.getCircleresults().add(area);
+                System.out.println("반지름이"+ radius + "인 원의 넓이는 :" + area);
+                System.out.println("지정된 원의 넓이 전체 조회");
+                level2.inquiryCircleresults();
             }
 
             System.out.println("exit 입력 시 종료합니다");
