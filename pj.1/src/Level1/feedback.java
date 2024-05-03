@@ -25,9 +25,10 @@ public class feedback {
 //        int count = 0;
 
         do {
-            System.out.println("어떤 계산을 하시겠습니까? (1:사칙연산, 2:원의 넓이");
+            System.out.println("어떤 계산을 하시겠습니까? (1:사칙연산, 2:원의 넓이)");
             int choice = sc.nextInt();
-            if (choice == 1) {}
+            if (choice == 1) {
+
 
 
             System.out.println("첫 번째 숫자를 입력하세요: ");
@@ -52,7 +53,8 @@ public class feedback {
             System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
             String input2 = sc.next();
             if (input2.equals(inquiry)) {
-               level2.inquiryResult(result);
+                level2.inquiryResult(result);
+            }
             }else{
                 System.out.println("원의 반지름을 입력하세요");
                 int radius = sc.nextInt();
